@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <spawnabletypes>
-    <damage min="0.3" max="1.0" />
+    <damage min="0.3" max="0.7" />
     <!-- NAMALSK - WEAPONS - RIFLES -->
     <type name="AK74">
         <attachments chance="1.00">
@@ -23,7 +23,8 @@
             <item name="PSO1Optic" chance="0.20" />
         </attachments>
         <attachments chance="0.10">
-            <item name="AK_Bayonet" chance="1.00" />
+            <item name="AK_Bayonet" chance="0.50" />
+            <item name="AK_Suppressor" chance="0.50" />
         </attachments>
     </type>
     <type name="AKS74U">
@@ -46,6 +47,9 @@
             <item name="KashtanOptic" chance="0.30" />
             <item name="PSO1Optic" chance="0.20" />
         </attachments>
+        <attachments chance="0.10">
+            <item name="AK_Suppressor" chance="1.00" />
+        </attachments>
     </type>
     <type name="AK101">
         <attachments chance="1.00">
@@ -67,7 +71,8 @@
             <item name="PSO1Optic" chance="0.20" />
         </attachments>
         <attachments chance="0.10">
-            <item name="AK_Bayonet" chance="1.00" />
+            <item name="AK_Bayonet" chance="0.50" />
+            <item name="AK_Suppressor" chance="0.50" />
         </attachments>
     </type>
     <type name="AKM">
@@ -92,7 +97,8 @@
             <item name="PSO1Optic" chance="0.20" />
         </attachments>
         <attachments chance="0.10">
-            <item name="AK_Bayonet" chance="1.00" />
+            <item name="AK_Bayonet" chance="0.50" />
+            <item name="AK_Suppressor" chance="0.50" />
         </attachments>
     </type>
     <type name="B95">
@@ -182,7 +188,8 @@
             <item name="Mag_STANAG_60Rnd" chance="0.10" />
         </attachments>
         <attachments chance="0.1">
-            <item name="M9A1_Bayonet" chance="1.00" />
+            <item name="M9A1_Bayonet" chance="0.50" />
+            <item name="M4_Suppressor" chance="0.50" />
         </attachments>
     </type>
     <type name="M16A2">
@@ -193,6 +200,9 @@
             <item name="Mag_CMAG_30Rnd" chance="0.25" />
             <item name="Mag_CMAG_40Rnd" chance="0.15" />
             <item name="Mag_STANAG_60Rnd" chance="0.10" />
+        </attachments>
+        <attachments chance="0.1">
+            <item name="M4_Suppressor" chance="1.00" />
         </attachments>
     </type>
     <type name="FAMAS">
@@ -221,6 +231,9 @@
             <item name="Mag_CMAG_30Rnd" chance="0.25" />
             <item name="Mag_CMAG_40Rnd" chance="0.15" />
             <item name="Mag_STANAG_60Rnd" chance="0.10" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="M4_Suppressor" chance="1.00" />
         </attachments>
         <attachments chance="1.00">
             <item name="UniversalLight" chance="1.00" />
@@ -350,6 +363,9 @@
             <item name="M68Optic" chance="0.60" />
             <item name="ACOGOptic" chance="0.30" />
             <item name="ACOGOptic_6x" chance="0.10" />
+        </attachments>
+        <attachments chance="0.10">
+            <item name="M4_Suppressor" chance="1.00" />
         </attachments>
     </type>
 
@@ -530,14 +546,7 @@
             <item name="StartKitIV" chance="0.34" />
         </cargo>
     </type>
-    <type name="dzn_FirstAidKit">
-        <cargo chance="1.00">
-            <item name="SalineBagIV" chance="1.00" />
-        </cargo>
-        <cargo chance="1.00">
-            <item name="Epinephrine" chance="1.00" />
-        </cargo>
-    </type>
+
 
     <!-- NAMALSK - MISC ITEMS -->
     <type name="WaterproofBag_Yellow">
@@ -922,52 +931,52 @@
         <cargo preset="toolsgeneral" />
         <cargo preset="ammocivil" />
     </type>
-    <type name="ManSuit_Beige">
+    <type name="ManSuitJacket_Beige">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_Black">
+    <type name="ManSuitJacket_Black">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_Blue">
+    <type name="ManSuitJacket_Blue">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_Brown">
+    <type name="ManSuitJacket_Brown">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_DarkGrey">
+    <type name="ManSuitJacket_DarkGrey">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_Khaki">
+    <type name="ManSuitJacket_Khaki">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_LightGrey">
+    <type name="ManSuitJacket_LightGrey">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="ManSuit_White">
+    <type name="ManSuitJacket_White">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_Beige">
+    <type name="WomanSuitJacket_Beige">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_Black">
+    <type name="WomanSuitJacket_Black">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_Blue">
+    <type name="WomanSuitJacket_Blue">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_Brown">
+    <type name="WomanSuitJacket_Brown">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_DarkGrey">
+    <type name="WomanSuitJacket_DarkGrey">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_Khaki">
+    <type name="WomanSuitJacket_Khaki">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_LightGrey">
+    <type name="WomanSuitJacket_LightGrey">
         <cargo preset="toolsgeneral" />
     </type>
-    <type name="WomanSuit_White">
+    <type name="WomanSuitJacket_White">
         <cargo preset="toolsgeneral" />
     </type>
     <type name="dzn_gorka_up_winter">
@@ -1377,10 +1386,10 @@
         <cargo preset="magsmilitary" />
     </type>
     <type name="dzn_platecarriervest_nac">
-        <attachments chance="0.50">
+        <attachments chance="1.00">
             <item name="dzn_platecarrierholster_nac" chance="1.00" />
         </attachments>
-        <attachments chance="0.25">
+        <attachments chance="1.00">
             <item name="dzn_platecarrierpouches_nac" chance="1.00" />
         </attachments>
         <cargo preset="toolsmilitary" />
@@ -2364,6 +2373,15 @@
         <cargo preset="ammomilitary" />
         <attachments preset="headsRU" />
         <attachments preset="vestsRU" />
+    </type>
+    <type name="ZmbM_SurvivorDean_Black">
+        <cargo preset="toolsgeneral" />
+    </type>
+    <type name="ZmbM_SurvivorDean_Blue">
+        <cargo preset="toolsgeneral" />
+    </type>
+    <type name="ZmbM_SurvivorDean_Grey">
+        <cargo preset="toolsgeneral" />
     </type>
     <type name="ZmbM_usSoldier_Officer_Desert">
         <cargo preset="toolsmilitary" />
